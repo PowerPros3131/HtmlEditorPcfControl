@@ -10,11 +10,20 @@ A Power Platform PCF (PowerApps Component Framework) control that provides rich 
 - Links and images
 - Code blocks and blockquotes
 
-## Installation
-1. Download the solution file
-2. Import into your Power Platform environment
-3. Add the control to your forms/apps
+## Quick Start
 
-## Usage
-- htmlInput: Input property for initial HTML content
-- htmlOutput: Output property containing the edited HTML
+### For Developers
+1. Clone this repository
+2. Run `npm install`
+3. Run `npm run build`
+4. Import into your Power Platform environment
+
+### For End Users
+1. Download the latest release from the [Releases page](https://github.com/yourusername/html-editor-pcf-control/releases)
+2. Import the solution file into your Power Platform environment
+3. Add the HTML Editor control to your forms
+
+### Configuration
+- **Input Property**: `htmlInput` - Set the initial HTML content
+- **Output Property**: `htmlOutput` - Retrieves the edited HTML content
+- **Disabled**: Control can be disabled based on form mode
