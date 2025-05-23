@@ -19,7 +19,7 @@ A Power Platform PCF (PowerApps Component Framework) control that provides rich 
 4. Import into your Power Platform environment
 
 ### For End Users
-1. Download the latest release from the [Releases page](https://github.com/yourusername/html-editor-pcf-control/releases)
+1. Download the latest release from the [Releases page](https://github.com/PowerPros3131/HtmlEditorPcfControl/releases)
 2. Import the solution file into your Power Platform environment
 3. Add the HTML Editor control to your forms
 
