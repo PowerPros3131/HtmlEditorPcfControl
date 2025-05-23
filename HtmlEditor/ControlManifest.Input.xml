@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="HtmlEditorNamespace" constructor="HtmlEditorControl" version="0.0.36" display-name-key="HTML Editor" description-key="Allows editing of HTML content using Quill" control-type="standard">
+    <!-- Input Property -->
+    <property name="htmlInput" display-name-key="HTML Input" description-key="The HTML content to be edited" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="defaultTextColor" display-name-key="Default Text Color" description-key="Sets the default color for new text" of-type="SingleLine.Text" usage="bound" required="false" />
+    <!-- Output Property -->
+    <property name="htmlOutput" display-name-key="HTML Output" description-key="The edited HTML content" of-type="SingleLine.Text" usage="bound" required="true" />
+    <!-- Resources -->
+    <resources>
+      <code path="index.ts" order="1" />
+      <resx path="strings/HtmlEditor.1033.resx" version="1.0.0" />
+      <css path="css/HtmlEditor.css" order="1" />
+    </resources>
+  </control>
+</manifest>

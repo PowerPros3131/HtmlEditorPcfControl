@@ -1,0 +1,27 @@
+.html-editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Override some Quill styles to better fit in PowerApps */
+.ql-toolbar.ql-snow {
+    border: 1px solid #ddd;
+    border-radius: 2px 2px 0 0;
+}
+
+.ql-container.ql-snow {
+    border: 1px solid #ddd;
+    border-top: 0;
+    border-radius: 0 0 2px 2px;
+    height: 100%;
+}
+
+.ql-editor {
+    min-height: 150px;
+    max-height: 100%;
+    overflow-y: auto;
+}
